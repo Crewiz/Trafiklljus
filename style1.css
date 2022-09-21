@@ -1,0 +1,59 @@
+/** Det här är main boxen som trafikljusen är inuti **/
+.main {
+    border: 25px solid black;
+    background-color: rgb(102, 101, 101);
+    margin: 20px auto;
+    height: auto;
+    max-width: fit-content;
+}
+/** Det här styr trafikljusens färger och storlek.
+Position:relative gör så att dom ljusare boxarna stannar i ljusen och inte flyttar till skärmens kanter**/
+.green {
+    background-color: green;
+    border: 15px solid rgb(0, 57, 0);
+    width: 150px;
+    height: 150px;
+    margin: 15px 15px 7.5px 15px;
+    position:relative
+}
+
+.yellow {
+    background-color: yellow;
+    border: 15px solid rgb(138, 113, 0);
+    width: 150px;
+    height: 150px;
+    margin: 15px 15px 15px 15px;
+    position:relative
+}
+.red {
+    background-color: red;
+    border: 15px solid darkred;
+    width: 150px;
+    height: 150px;
+    margin: 15px 15px 15px 15px;
+    position:relative
+}
+/** Det här styr boxarnas färg och position  **/
+.lightQR {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(246, 246, 95);
+}
+.lightQL{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(75, 185, 75);
+}
+.lightH {
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(253, 96, 96);
+}
